@@ -1,24 +1,33 @@
-# README
+# Univ application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the application for
+[*The Complete Ruby on Rails tutorial*](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/).
 
-Things you may want to cover:
+## Information
 
-* Ruby version
+This application was build primarily to practice how to use a different front-end framework like MaterializeCSS (which uses material design patterns laid out by Google) with Rails applications instead of Bootstrap.
 
-* System dependencies
+Checkout the app on heroku [Univ app](https://materialize-univ-app.herokuapp.com/)
 
-* Configuration
+## Getting started
 
-* Database creation
+To get started with the app, clone the repo and then install the needed gems:
 
-* Database initialization
+```
+$ bundle install --without production
+```
 
-* How to run the test suite
+Next, migrate the database:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails db:migrate
+```
 
-* Deployment instructions
+Then 
 
-* ...
+```
+$ rails server
+```
+
+For more information, see the
+[*Complete Ruby on Rails Tutorial*](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/).
