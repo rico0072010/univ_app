@@ -7,7 +7,7 @@ This is the application for
 
 This application was build primarily to practice how to use a different front-end framework like MaterializeCSS (which uses material design patterns laid out by Google) with Rails applications instead of Bootstrap.
 
-Checkout the app on heroku [Univ app](https://materialize-univ-app.herokuapp.com/)
+Checkout the app on heroku [Univ app](https://materialize-univ-app.herokuapp.com/) PRODUCTION VERSION WITHOUT ANY DATA
 
 ## Getting started
 
